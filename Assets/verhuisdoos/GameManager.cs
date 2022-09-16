@@ -32,6 +32,6 @@ public class GameManager : MonoBehaviour
 
     public void PlayAgain()
     {
-        SceneManager.LoadScene("lvl1");
+        SceneManager.LoadScene("Finn");
     }
 }

@@ -269,6 +269,7 @@ GameObject:
   m_Component:
   - component: {fileID: 346654674}
   - component: {fileID: 346654673}
+  - component: {fileID: 346654675}
   m_Layer: 0
   m_Name: SetScores
   m_TagString: Untagged
@@ -288,9 +289,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 378ef12879d350c4c9cae43ffcc1ebd0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: {fileID: 555282205}
-  time: {fileID: 106045299}
-  iets: {fileID: 572546724}
 --- !u!4 &346654674
 Transform:
   m_ObjectHideFlags: 0
@@ -305,6 +303,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &346654675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346654672}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab02087ebc6604c459714a082653f54e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: {fileID: 555282205}
+  time: {fileID: 106045299}
+  iets: {fileID: 572546724}
 --- !u!1 &520563895
 GameObject:
   m_ObjectHideFlags: 0
@@ -362,7 +375,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3609da771530dfc4b805e40f5a4fc482, type: 3}
+  m_Sprite: {fileID: 21300000, guid: cc8f27288333f54419edff55d4a637f1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -763,6 +776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1595655368}
   - component: {fileID: 1595655367}
+  - component: {fileID: 1595655369}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -796,6 +810,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1595655369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595655366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2da4b8d5e2de524e8ff43f52dad3e32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1626984182
 GameObject:
   m_ObjectHideFlags: 0
@@ -1027,7 +1053,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1595655367}
+      - m_Target: {fileID: 1595655369}
         m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
         m_MethodName: PlayAgain
         m_Mode: 1
@@ -1059,7 +1085,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: be45301be87455e428840b327906cc37, type: 3}
+  m_Sprite: {fileID: 21300000, guid: adb72294cd461494285b2e9d1dc486aa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
