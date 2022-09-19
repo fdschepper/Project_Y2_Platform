@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Finn.unity
     guid: 3298d7da00c1973409984ee29daa6274
+  - enabled: 1
+    path: Assets/Scenes/Win.unity
+    guid: bf684fa0d02956d4a9a062a608aff262
   m_configObjects: {}
